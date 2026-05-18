@@ -1,17 +1,61 @@
 # revision_app
+# ExamPulse – Dynamic Difficulty Quiz App
 
-A new Flutter project.
+## Mobile Application Development (MAD) Mini Project
 
-## Getting Started
+### Developed Using
+- Flutter
+- Dart
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+# Project Description
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+ExamPulse is a cross-platform quiz application developed using Flutter and Dart. The application allows students to select quiz difficulty levels using radio buttons and answer multiple-choice questions dynamically based on the selected difficulty.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app evaluates user answers automatically and displays the final score after quiz completion.
+
+---
+
+# Features
+
+- Difficulty level selection using Radio Buttons
+  - Easy
+  - Medium
+  - Hard
+
+- Dynamic quiz questions
+- Multiple-choice answer system
+- Automatic score calculation
+- Result screen
+- Restart quiz feature
+- Responsive UI design
+- Multi-screen navigation
+- Cross-platform Flutter support
+
+---
+
+# Technologies Used
+
+- Flutter
+- Dart
+- VS Code
+- Android SDK
+- Chrome Emulator
+- GitHub
+
+---
+
+# Project Structure
+
+```text
+lib/
+ ├── main.dart
+ ├── screens/
+ │    ├── home_screen.dart
+ │    ├── quiz_screen.dart
+ │    └── result_screen.dart
+ ├── models/
+ │    └── question_model.dart
+ └── data/
+      └── question_data.dart
